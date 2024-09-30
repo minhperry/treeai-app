@@ -2,7 +2,7 @@
 
 set -e
 
-cd extensions/blueberryai-submodule
+cd extensions/treeai-submodule
 ./scripts/install-and-build.sh
 cd ../..
 

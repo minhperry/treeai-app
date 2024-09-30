@@ -234,9 +234,9 @@ app.on('ready', () => {
 				version: '1.x.y',
 				nameShort: 'blueberryAI Dev',
 				nameLong: 'blueberryAI Dev',
-				applicationName: 'blueberryai',
-				dataFolderName: '.blueberryai',
-				urlProtocol: 'blueberryai',
+				applicationName: 'treeai',
+				dataFolderName: '.treeai',
+				urlProtocol: 'treeai',
 			}
 		};
 	});

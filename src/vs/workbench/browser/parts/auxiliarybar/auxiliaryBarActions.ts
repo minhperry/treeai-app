@@ -242,14 +242,14 @@ class FocusblueberryAIExtensionAction extends Action2 {
 			title: FocusblueberryAIExtensionAction.LABEL,
 			category: Categories.View,
 			f1: true,
-			// keybinding: do not add keybinding CTRL/CMD L here, it comes from blueberryai extension
+			// keybinding: do not add keybinding CTRL/CMD L here, it comes from treeai extension
 		});
 	}
 
 	override async run(accessor: ServicesAccessor): Promise<void> {
-		// focus blueberryai extension
+		// focus treeai extension
 		const commandService = accessor.get(ICommandService);
-		commandService.executeCommand('blueberryai.focusContinueInput');
+		commandService.executeCommand('treeai.focusContinueInput');
 	}
 }
 
